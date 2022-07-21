@@ -37,3 +37,11 @@ pip install cufflinks  # combining plotly with pandas
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
 mv /root/jupyter_notebook_config.py /root/.jupyter/
+mv /root/cert.* /root/.jupyter
+mkdir /root/notebook
+
+#STARTING JUPYTER NOTEBOOK
+jupyter notebook --allow-root
+
+# STARTING JUPYTER NOTEBOOK as background process:
+# jupyter notebook --allow-root &
