@@ -11,8 +11,6 @@ rm -rf Miniconda.sh	   #remove the miniconda script
 export PATH="/root/miniconda3/bin:$PATH"	   #set the path to the miniconda bin directory
 
 #INSTALL PYTHON LIBRARIES
-conda create -n myenv python=3.7	   #create a conda environment with python 3.6
-conda activate myenv	   #activate the conda environment
 conda update -y conda python     #update the conda and python environment
 conda install -y pandas      #install pandas
 conda install -y ipython      #install ipython shell

@@ -18,3 +18,6 @@ ENV PATH /root/miniconda3/bin:$PATH
 
 #execute IPython when the container runs
 CMD ["ipython"]
+
+
+
