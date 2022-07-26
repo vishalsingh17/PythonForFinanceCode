@@ -24,8 +24,8 @@ echo "conda activate" >> ~/.bashrc
 # More packages can/must be added
 # depending on the use case.
 conda update -y conda # updates conda if required
-conda create -y -n py4fi python=3.7  # creates an environment
-source activate py4fi  # activates the new environment
+conda create -y -n DigitalOcean python=3.7  # creates an environment
+source activate DigitalOcean  # activates the new environment
 conda install -y jupyter  # interactive data analytics in the browser
 conda install -y pytables  # wrapper for HDF5 binary storage
 conda install -y pandas  #  data analysis package
